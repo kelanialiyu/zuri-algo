@@ -7,11 +7,9 @@ function convertFahrToCelsius(input_in_F){
 		var type = typeof  input_in_F;
 
 		if(Array.isArray(input_in_F)){
-			input_in_F ="["+input_in_F+"]";
 			type = "array";
 
 		}
-		// input_in_F+="";
 		result = `${JSON.stringify(input_in_F)} is not a valid number but ${ get_article(type) } ${type}.`;
 	}
 	else{
