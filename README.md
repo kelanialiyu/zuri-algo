@@ -1,1 +1,1 @@
-# zuri-algo
+# zuri-algo yes
